@@ -1,9 +1,6 @@
-﻿using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class Katamari : MonoBehaviour {
-
 	bool hasJoint;
 	void OnCollisionEnter(Collision collision) {
 		// CHECK HERE IF COLLISION IS WITH THE PLAYER OR ATTACHED CUBES, WE DON'T WANT FREE CUBES TO CONNECT EACH OTHER
